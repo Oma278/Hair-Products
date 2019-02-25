@@ -16,5 +16,8 @@ namespace IdentityCustomisationTest.Data
         }
 
         public DbSet<Product> Product { get; set; }
+
+        public DbSet<ProjectCodesCW2.Model.Order> Order { get; set; }
+        public DbSet<ProductOrder> ProductOrder { get; set; }
     }
 }
